@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -32,27 +32,27 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">your.email@example.com</p>
+                    <p className="text-muted-foreground">sharmilajagan2003@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300">
                   <div className="p-2 rounded-full bg-primary/20">
-                    <Phone className="text-primary" size={20} />
+                    <Github className="text-primary" size={20} />
                   </div>
                   <div>
-                    <p className="font-semibold">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="font-semibold">GitHub</p>
+                    <p className="text-muted-foreground">github.com/sharmi2011</p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300">
                   <div className="p-2 rounded-full bg-primary/20">
-                    <MapPin className="text-primary" size={20} />
+                    <Linkedin className="text-primary" size={20} />
                   </div>
                   <div>
-                    <p className="font-semibold">Location</p>
-                    <p className="text-muted-foreground">Your City, Country</p>
+                    <p className="font-semibold">LinkedIn</p>
+                    <p className="text-muted-foreground">linkedin.com/in/sharmila-j-2011sharmi</p>
                   </div>
                 </div>
               </CardContent>
@@ -69,6 +69,7 @@ const ContactSection = () => {
                     variant="outline" 
                     size="lg"
                     className="flex-1 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+                    onClick={() => window.open('https://github.com/sharmi2011', '_blank')}
                   >
                     <Github size={20} className="mr-2" />
                     GitHub
@@ -77,6 +78,7 @@ const ContactSection = () => {
                     variant="outline" 
                     size="lg"
                     className="flex-1 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+                    onClick={() => window.open('https://www.linkedin.com/in/sharmila-j-2011sharmi', '_blank')}
                   >
                     <Linkedin size={20} className="mr-2" />
                     LinkedIn

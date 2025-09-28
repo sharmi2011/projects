@@ -6,55 +6,37 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.",
-      image: "🛒",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Bus Reservation System",
+      description: "A comprehensive bus booking system with seat selection, payment processing, and booking management.",
+      image: "🚌",
+      technologies: ["Java", "MySQL", "Swing", "JDBC"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates and team collaboration features.",
-      image: "📋",
-      technologies: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: true
-    },
-    {
-      title: "AI Chat Application",
-      description: "Modern chat application powered by AI with real-time messaging and smart responses.",
-      image: "🤖",
-      technologies: ["React", "OpenAI", "Socket.io", "Express"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Portfolio Website",
-      description: "Responsive portfolio website with modern design and smooth animations.",
-      image: "🎨",
-      technologies: ["React", "Framer Motion", "Tailwind", "Vite"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Real-time weather dashboard with location-based forecasts and interactive maps.",
+      title: "Weather App",
+      description: "Real-time weather application providing current conditions and forecasts for multiple locations.",
       image: "🌤️",
-      technologies: ["Vue.js", "OpenWeather API", "Chart.js", "Mapbox"],
+      technologies: ["React", "Weather API", "CSS", "JavaScript"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
+    },
+    {
+      title: "Student Academic Performance Analyser",
+      description: "Data analysis tool for tracking and analyzing student academic performance with visualizations.",
+      image: "📊",
+      technologies: ["Python", "Pandas", "Matplotlib", "Streamlit"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "Expense Tracker",
-      description: "Personal finance management app with budget tracking and expense categorization.",
-      image: "💰",
-      technologies: ["React Native", "Firebase", "Redux", "Chart.js"],
+      title: "Tic-Tac-Toe Game",
+      description: "Interactive tic-tac-toe game with smart AI opponent and score tracking.",
+      image: "🎮",
+      technologies: ["HTML", "CSS", "JavaScript", "DOM"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
