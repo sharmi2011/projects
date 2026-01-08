@@ -50,14 +50,14 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                onClick={() => window.open('/assets/Sharmila_J_Resume.pdf', '_blank')}
+            <Button 
+             variant="outline" 
+             size="lg"
+             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+             onClick={() => window.open('/assets/SHARMILA.pdf','_blank')}
               >
-                Download Resume
-              </Button>
+             Download Resume 
+            </Button> 
             </div>
 
             {/* Social Links */}
@@ -94,7 +94,8 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-hero rounded-full opacity-20 animate-glow"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-8xl md:text-9xl animate-float">💻</div>
+                <div className="text-8xl md:text-9xl animate-float">👩</div>
+
               </div>
             </div>
           </div>

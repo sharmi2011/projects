@@ -26,7 +26,12 @@ const ContactSection = () => {
                 <CardTitle className="text-2xl gradient-text">Let's Connect</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300">
+
+                {/* Email */}
+                <a
+                  href="mailto:sharmilajagan2003@gmail.com"
+                  className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300"
+                >
                   <div className="p-2 rounded-full bg-primary/20">
                     <Mail className="text-primary" size={20} />
                   </div>
@@ -34,9 +39,15 @@ const ContactSection = () => {
                     <p className="font-semibold">Email</p>
                     <p className="text-muted-foreground">sharmilajagan2003@gmail.com</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300">
+                {/* GitHub */}
+                <a
+                  href="https://github.com/sharmi2011"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300"
+                >
                   <div className="p-2 rounded-full bg-primary/20">
                     <Github className="text-primary" size={20} />
                   </div>
@@ -44,9 +55,15 @@ const ContactSection = () => {
                     <p className="font-semibold">GitHub</p>
                     <p className="text-muted-foreground">github.com/sharmi2011</p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300">
+                {/* LinkedIn */}
+                <a
+                  href="https://linkedin.com/in/sharmila-j-2011sharmi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-all duration-300"
+                >
                   <div className="p-2 rounded-full bg-primary/20">
                     <Linkedin className="text-primary" size={20} />
                   </div>
@@ -54,36 +71,8 @@ const ContactSection = () => {
                     <p className="font-semibold">LinkedIn</p>
                     <p className="text-muted-foreground">linkedin.com/in/sharmila-j-2011sharmi</p>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
+                </a>
 
-            {/* Social Links */}
-            <Card className="bg-card/50 backdrop-blur-sm border border-border/50">
-              <CardHeader>
-                <CardTitle className="text-xl">Find Me On</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex gap-4">
-                  <Button 
-                    variant="outline" 
-                    size="lg"
-                    className="flex-1 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
-                    onClick={() => window.open('https://github.com/sharmi2011', '_blank')}
-                  >
-                    <Github size={20} className="mr-2" />
-                    GitHub
-                  </Button>
-                  <Button 
-                    variant="outline" 
-                    size="lg"
-                    className="flex-1 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
-                    onClick={() => window.open('https://www.linkedin.com/in/sharmila-j-2011sharmi', '_blank')}
-                  >
-                    <Linkedin size={20} className="mr-2" />
-                    LinkedIn
-                  </Button>
-                </div>
               </CardContent>
             </Card>
           </div>
@@ -142,6 +131,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
           </div>
+
         </div>
       </div>
     </section>
@@ -149,3 +139,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+

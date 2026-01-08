@@ -17,13 +17,13 @@ const AboutSection = () => {
             <Card className="bg-card/50 backdrop-blur-sm border border-border/50 hover:bg-card/70 transition-all duration-300">
               <CardContent className="p-8">
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  I fell in love with programming and I have at least learnt something, I think... 🤷‍♂️
+                  I fell in love with programming and I have at least learnt something, I think... 🥰
                 </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  I am fluent in classics like <span className="text-primary font-semibold">C++</span>, 
-                  <span className="text-primary font-semibold"> JavaScript</span> and 
-                  <span className="text-primary font-semibold"> Python</span>.
+                  I am fluent in classics like <span className="text-primary font-semibold">python</span>, 
+                  <span className="text-primary font-semibold"> HTML,CSS</span> and 
+                  <span className="text-primary font-semibold"> Javascript</span>.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -33,12 +33,10 @@ const AboutSection = () => {
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Whenever possible, I also apply my passion for developing products with 
-                  <span className="text-accent font-semibold"> Node.js</span> and modern 
-                  <span className="text-accent font-semibold"> JavaScript frameworks</span> like 
-                  <span className="text-accent font-semibold"> React.js</span> and 
-                  <span className="text-accent font-semibold"> Next.js</span>.
-                </p>
+                Whenever possible, I apply my passion for creating 
+              <span className="text-accent font-semibold"> interactive and efficient web applications</span> 
+                using <span className="text-accent font-semibold"> modern web technologies</span>.
+             </p>
               </CardContent>
             </Card>
           </div>
@@ -48,7 +46,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center">
                 <div className="text-9xl animate-float" style={{ animationDelay: "0.5s" }}>
-                  🧑‍💻
+                  👩🏼‍💻
                 </div>
               </div>
               {/* Decorative elements */}

@@ -9,36 +9,44 @@ const ProjectsSection = () => {
       title: "Bus Reservation System",
       description: "A comprehensive bus booking system with seat selection, payment processing, and booking management.",
       image: "🚌",
-      technologies: ["Java", "MySQL", "Swing", "JDBC"],
+      technologies: ["Python", "Django", "Sqlite", "Javascript"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sharmi2011/Building-Bus-Reservation-System-using-Python-and-Django-SHARMILA-J--5033--KEC",
       featured: true
     },
     {
-      title: "Weather App",
-      description: "Real-time weather application providing current conditions and forecasts for multiple locations.",
-      image: "🌤️",
-      technologies: ["React", "Weather API", "CSS", "JavaScript"],
+      title: "Resume Integrity Checker",
+      description: "Built a Resume Integrity Checker to detect fraudulent resumes, with scope to add personalized job recommendations.",
+      image: "📑",
+      technologies: [ "Weather API", "CSS", "JavaScript"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sharmi2011/Weather-application",
       featured: true
     },
     {
-      title: "Student Academic Performance Analyser",
-      description: "Data analysis tool for tracking and analyzing student academic performance with visualizations.",
-      image: "📊",
-      technologies: ["Python", "Pandas", "Matplotlib", "Streamlit"],
+      title: "Earthquake Prediction Model Using python",
+      description: "A predictive model that analyzes seismic data to forecast the likelihood of earthquakes in real-time.",
+      image: "🌍",
+      technologies: ["Python", "Pandas", "NumPy", "Machine Learning"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sharmi2011/AI",
+      featured: true
+    },
+    {
+      title: "Sales Analysis Dashboard",
+      description: "Built an interactive Sales Analysis Dashboard with Excel and Power BI for data-driven insights and decision-making.",image: "📊",
+      technologies: ["Excel", "Power BI"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/sharmi2011/projects/tree/main/Sales%20Analysis%20Dashboard",
       featured: false
     },
     {
-      title: "Tic-Tac-Toe Game",
-      description: "Interactive tic-tac-toe game with smart AI opponent and score tracking.",
-      image: "🎮",
-      technologies: ["HTML", "CSS", "JavaScript", "DOM"],
+      title: "Budget Tracker App",
+      description: "Developed a Budget Tracker using HTML, CSS, and JavaScript for easy tracking of income, expenses, and remaining balance.",
+      image: "📱",
+      technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/sharmi2011/projects/tree/main/Budget%20Tracker%20App",
       featured: false
     }
   ];
@@ -158,16 +166,7 @@ const ProjectsSection = () => {
           </div>
         </div>
 
-        {/* Call to action */}
-        <div className="text-center mt-16">
-          <Button 
-            size="lg" 
-            variant="outline"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-          >
-            View All Projects on GitHub
-          </Button>
-        </div>
+        
       </div>
     </section>
   );

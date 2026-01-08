@@ -9,7 +9,7 @@ const Footer = () => {
             <p className="text-muted-foreground">
               Designed and Developed with{" "}
               <Heart className="inline-block w-4 h-4 text-red-500 animate-pulse" />{" "}
-              by <span className="gradient-text font-semibold">Your Name</span>
+              by <span className="gradient-text font-semibold">Sharmila</span>
             </p>
           </div>
           
