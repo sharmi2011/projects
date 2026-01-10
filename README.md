@@ -1,4 +1,5 @@
 
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/1200cc2f-b0d5-4259-96f0-9686969c577e
@@ -48,4 +49,6 @@ This project is built with:
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/1200cc2f-b0d5-4259-96f0-9686969c577e) and click on Share -> Publish.
+
+
 
