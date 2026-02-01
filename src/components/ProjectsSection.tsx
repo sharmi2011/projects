@@ -18,9 +18,9 @@ const ProjectsSection = () => {
       title: "Resume Integrity Checker",
       description: "Built a Resume Integrity Checker to detect fraudulent resumes, with scope to add personalized job recommendations.",
       image: "📑",
-      technologies: [ "Weather API", "CSS", "JavaScript"],
+      technologies: [ "python", "SQL", "Flask","HTML","CSS3","Javascript"],
       liveUrl: "#",
-      githubUrl: "https://github.com/sharmi2011/Weather-application",
+      githubUrl: "https://github.com/sharmi2011/projects/tree/main/Resume%20Integrity%20Checker",
       featured: true
     },
     {
@@ -34,7 +34,8 @@ const ProjectsSection = () => {
     },
     {
       title: "Sales Analysis Dashboard",
-      description: "Built an interactive Sales Analysis Dashboard with Excel and Power BI for data-driven insights and decision-making.",image: "📊",
+      description: "Built an interactive Sales Analysis Dashboard with Excel and Power BI for data-driven insights and decision-making.",
+      image: "📈",
       technologies: ["Excel", "Power BI"],
       liveUrl: "#",
       githubUrl: "https://github.com/sharmi2011/projects/tree/main/Sales%20Analysis%20Dashboard",

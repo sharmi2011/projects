@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/1200cc2f-b0d5-4259-96f0-9686969c577e
+**URL**: https://sharmila-j.web.app/
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -48,7 +48,25 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/1200cc2f-b0d5-4259-96f0-9686969c577e) and click on Share -> Publish.
+# 1. Install Firebase CLI (if not already installed)
+npm install -g firebase-tools
+
+# 2. Login to Firebase
+firebase login
+
+# 3. Initialize Firebase Hosting in your project
+firebase init hosting
+# - Select your Firebase project (e.g., sharmila-j)
+# - Set "public directory" to dist
+# - Configure as a single-page app (y/n): y
+
+# 4. Build the project with Vite
+npm run build
+
+# 5. Deploy to Firebase Hosting
+firebase deploy
+
+
 
 
 

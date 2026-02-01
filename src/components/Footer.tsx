@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <span>© 2024 Portfolio</span>
+            <span>© 2025 Portfolio</span>
             <span>•</span>
             <span>All rights reserved</span>
           </div>

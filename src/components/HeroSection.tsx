@@ -50,15 +50,18 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-            <Button 
-             variant="outline" 
-             size="lg"
-             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-             onClick={() => window.open('/assets/SHARMILA.pdf','_blank')}
-              >
-             Download Resume 
-            </Button> 
-            </div>
+  <Button
+    variant="outline"
+    size="lg"
+    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+    asChild
+  >
+    <a href="/sharmila.pdf" target="_blank" rel="noopener noreferrer">
+  Download Resume
+</a>
+
+  </Button>
+</div>
 
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
